@@ -32,11 +32,15 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/lemidiriba/travel_app.git
    ```
-2. Install NPM packages
+2. Change directory
+   ```sh
+   cd travel_app
+   ```
+3. Install packages
    ```sh
    flutter pub get
    ```
-3. Enter your API in `config.js`
+4. Run the app
    ```sh
    flutter run
    ```
